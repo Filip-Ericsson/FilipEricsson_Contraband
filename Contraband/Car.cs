@@ -8,5 +8,15 @@ namespace Contraband
 {
     class Car
     {
+        public int passengers = 0;
+        public int contrabandAmount = 0;
+        public bool alreadyChecked;
+        public Random generator = new Random();
+
+
+        public bool Examine()
+        {
+
+        }
     }
 }
